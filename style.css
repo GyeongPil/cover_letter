@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+
+    top: 0;
+
+    width: 100%;
+    height: 70px;
+
+    border-bottom: solid 1px gray;
+    background-color: white;
+    z-index: 1000;
+}
+
+#header_inner{
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header_left{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.fa-file-lines{
+    color: blue;
+    font-size: 35px;
+}
+
+#web_name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#header_md{
+    display: flex;
+
+    gap: 30px;
+
+    color: gray;
+
+    cursor: pointer;
+}
+
+#import_function:hover{
+    color: black;
+}
+
+#how_use:hover{
+    color: black;
+}
+
+#pay:hover{
+    color: black;
+}
+
+#header_right{
+    display: flex;
+
+    gap: 20px;
+}
+
+#login{
+    border-radius: 5px;
+    border: none;
+    background: none;
+
+    font-size: 15px;
+
+    padding: 8px 13px 8px 13px;
+}
+
+#login:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+#free_start{
+    color: white;
+    background-color: black;
+
+    border-radius: 5px;
+    border: none;
+
+    padding: 8px 17px 8px 17px;
+}
+
+main{
+    padding-top: 70px;
+
+    width: 100%;
+}
+
+#main_inner{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+#main_top{
+    position: relative;
+    padding-top: 150px;
+    padding-left: 220px;
+
+    min-height: 650px;
+}
+
+#Ai{
+    position: absolute;
+
+    padding: 5px 0;
+
+    width: 250px;
+
+    text-align: center;
+
+    border-radius: 50px;
+    background-color: rgb(179, 203, 255);
+    color: blue;
+}
+
+#title{
+    margin-top: 80px;
+}
+
+#title_top{
+    font-size: 60px;
+}
+
+#title_bottom{
+    font-size: 60px;
+    color: blue;
+}
+
+#slogon{
+    margin-top: 30px;
+}
+
+#slogon_text{
+    font-size: 20px;
+    color: grey;
+}
+
+#main_btns{
+    margin-top: 40px;
+    
+    display: flex;
+    gap: 15px;
+}
+
+#now_start{
+    border: none;
+    border-radius: 5px;
+
+    width: 240px;
+
+    font-size: 18px;
+
+    padding: 10px 15px 10px 15px;
+
+    background-color: black;
+    color: white;
+}
+
+#sample{
+    width: 140px;
+
+    font-size: 18px;
+
+    border: solid 1px rgb(218, 218, 218);
+    border-radius: 5px;
+
+    background-color: white;
+}
+
+#main_img{
+    position: absolute;
+
+    top: 240px;
+    left: 950px;
+
+    width: 750px;
+    height: 460px;
+
+    border-radius: 10px;
+    z-index: 1;
+}
+
+#ai_analyze{
+    position: absolute;
+
+    padding-top: 16px;
+    padding-left: 13px;
+
+    margin-left: 1200px;
+    margin-top: 40px;
+
+    width: 280px;
+    height: 100px;
+
+    border-radius: 10px;
+    background-color: white;
+    z-index: 10;
+
+    box-shadow: 10px 5px 5px gray;
+}
+
+#ai_text{
+    font-size: 15.5px;
+    color: gray;
+}
+
+#main_b_text_section{
+    margin-top: 50px;
+    display: flex;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.line{
+    width: 0;
+    height: 60px;
+
+    border: solid 1px rgb(218, 218, 218);
+
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 10px;
+}
+
+#main_bb_text_section{
+    margin-top: -25px;
+    color: grey;
+}
+
+#good{
+    margin-left: 120px;
+}
+
+#help_ai{
+    margin-left: 90px;
+}
+
+#main_md{
+    padding-top: 150px;
+    padding-left: 220px;
+
+    min-height: 750px;
+}
+
+#md_title{
+    text-align: center;
+
+    margin-right: 160px;
+    font-size: 40px;
+}
+
+#md_slogon{
+    position: absolute;
+
+    margin-left: 480px;
+    margin-top: 20px;
+
+    font-size: 22px;
+    color: grey;
+}
+
+.function_box_section{
+    display: flex;
+    gap: 20px;
+}
+
+.function_box_section:first-of-type{
+    margin-top: 140px;
+}
+
+.function_box{
+    width: 480px;
+    height: 200px;
+
+    border: solid 2px rgb(218, 218, 218);
+    border-radius: 10px;
+
+    margin-top: 20px;
+}
+
+#box_i{
+    position: absolute;
+
+    margin-left: 20px;
+    margin-top: 20px;
+
+    padding: 10px 10px 10px 10px;
+
+    font-size: 22px;
+    text-align: center;
+    background-color: rgb(160, 193, 255);
+
+    border-radius: 5px;
+
+    color: blue;
+}
+
+#fb_title{
+    position: absolute;
+
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+#fb_text{
+    position: absolute;
+
+    margin-left: 20px;
+    margin-top: 120px;
+
+    color: grey;
+    font-size: 17px;
+}
